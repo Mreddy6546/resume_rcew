@@ -41,11 +41,11 @@ k;
   border: 5px solid #c454;
 }
 /*media queiries*/
-/* @media only screen and (min-width:1024px) and (max-width:1280px) {
+ @media only screen and (min-width:1024px) and (max-width:1280px) {
   .main{
     display: flex;
-    flex-direction: row;
-    width:100%
+    /* flex-direction: row;
+    width:100% */
   }
   .left{
     width:25%;
@@ -77,14 +77,15 @@ k;
 @media only screen and  (min-width:480px) and (max-width:768px) {
   .main{
     display: flex;
-    flex-direction: row;
-    width:100%
+    flex-wrap: wrap;
+    /* width:100% */
   }
   .left{
     width:25%;
+    background-color: lavender;
   }
   .right{
-    width: 75%;
+    /* width: 75%; */
     background-color: red;
   }
   }
